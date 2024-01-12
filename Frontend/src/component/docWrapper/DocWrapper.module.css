@@ -1,0 +1,9 @@
+.cardWrapper{
+    margin : auto;
+    margin-top: 4% ;
+}
+.dbuttonWrapper{
+    display: flex;
+    justify-content: space-around;
+    
+}

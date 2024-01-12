@@ -1,0 +1,47 @@
+.imageWrapper{
+  display:flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+.image {
+  margin: auto; 
+  height: 75%;
+  width:100%;
+  z-index: -1;
+}
+.nameText{
+  position :absolute;
+  top:47.5%;
+  left:40%;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.internId{
+  position :absolute;
+  top:56.5%;
+  left:38%;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Pinyon Script', 'cursive';
+}
+.days{
+  position :absolute;
+  top:59.3%;
+  left:60.5%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.dbuttonWrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+.dateText{
+  position :absolute;
+  top:73%;
+  left:44.5%;
+  font-size: 20px;
+  font-family: 'Open Sans', 'sans-serif';
+}
